@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = 'roomfinder'
         CONTAINER_NAME = 'roomfinder-app'
-        PORT = '3000'
+        PORT = '3001'
     }
 
     stages {
